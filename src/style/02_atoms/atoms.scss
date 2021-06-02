@@ -1,0 +1,149 @@
+h1,h2,h3{
+  font-family: 'Alfa Slab One';
+  color: $text-black;
+}
+
+h4,h5{
+  font-family: 'DM Sans';
+  font-weight: bold;
+}
+
+h1{
+  font-size: 72px;
+  line-height: 80px;
+}
+
+h2{
+  font-size: 56px;
+  line-height: 64px;
+}
+
+h3{
+  font-size: 40px;
+  line-height: 48px;
+}
+
+h4{
+  font-size: 24px;
+  line-height: 32px;
+  color: $text-black;
+}
+
+h5{
+  font-size: 20px;
+  line-height: 24px;
+  color: $primary-1;
+}
+
+.text{
+  font-family: 'DM Sans';
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  color: $text-black;
+
+  &--big{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: normal;
+  }
+
+  &--small{
+    font-size: 12px;
+  }
+
+  &--gray{
+    font-weight: normal;
+    color: $text-black-50;
+  }
+
+}
+
+.dark{
+
+  &--button {
+    border-radius: 3px !important;
+    font-family: "DM Sans";
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid $text-black;
+    box-sizing: border-box;
+    color: $text-black;
+    background-color: $text-white;
+
+    &:hover{
+      color: $text-white;
+      background-color: $text-black;
+    }
+
+  }
+
+  &--text{
+    width: 170px;
+    height: 48px;
+  }
+
+}
+
+.light{
+
+  &--button{
+    border-radius: 3px !important;
+    font-family: "DM Sans";
+    font-weight: bold;
+    font-size: 16px ;
+    line-height: 24px;
+
+    &--text{
+      width: 170px;
+      height: 48px;
+    }
+
+    &--primary{
+      background-color: $primary-1;
+      color: $text-white;
+      border: none;
+      &:hover{
+        border: 1px solid $primary-1;
+        color: $primary-1;
+        background-color: $text-white;
+      }
+    }
+
+    &--secondary{
+      border-opacity: 0.32;
+      border: 1px solid $primary-1;
+      box-sizing: border-box;
+      color: $primary-1;
+      background-color: $text-white;
+    }
+
+  }
+
+  &--field{
+
+    input{
+      width: 270px;
+      height: 48px;
+      background: #FFFFFF;
+      border: 1px solid #DADADA;
+      box-sizing: border-box;
+      border-radius: 3px;
+
+      &::placeholder{
+        color: $text-black-50;
+        font-family: "DM Sans";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 13px;
+        padding-left: 16px;
+      }
+
+    }
+
+  }
+}
+
+

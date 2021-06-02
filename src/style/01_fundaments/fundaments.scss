@@ -1,0 +1,59 @@
+
+@font-face {
+  font-family: DM Sans;
+  src: url("01_fundaments/fonts/DM_Sans/DMSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: DM Sans;
+  src: url("01_fundaments/fonts/DM_Sans/DMSans-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: DM Sans;
+  src: url("01_fundaments/fonts/DM_Sans/DMSans-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: DM Sans;
+  src: url("01_fundaments/fonts/DM_Sans/DMSans-Italic.ttf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: DM Sans;
+  src: url("01_fundaments/fonts/DM_Sans/DMSans-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: DM Sans;
+  src: url("01_fundaments/fonts/DM_Sans/DMSans-MediumItalic.ttf");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Alfa Slab One;
+  src: url("01_fundaments/fonts/Alfa_Slab_One/AlfaSlabOne-regular.ttf");
+}
+
+
+$text-black: #333333;
+$primary-1: #BE6361;
+$text-white: #FFFFFF;
+$text-black-50: rgba($text-black, 0.5);
+$text-white-50: rgba($text-white, 0.5);
+$page-one: #FF8482;
+$page-two: #FFF2DD;
+$page-four: #FFF2DD;
+$picturegradient: rgba( #3D201F, 0.5);
+$footer-bottom: #A85756;
+
+
+
+
+

@@ -1,0 +1,79 @@
+@import "src/style/01_fundaments/fundaments";
+@import "src/style/02_atoms/atoms";
+@import "src/style/03_molecules/molecules";
+@import "src/style/04_organism/organisms";
+
+.pageone{
+  background-color:$page-one;
+  width: 100%;
+  height: 768px;
+  display: flex;
+}
+
+.pagetwo{
+  background-color: $page-two;
+  width: 100%;
+  height: 768px;
+  display: flex;
+}
+
+.pagethree{
+  background-color: $text-white;
+  width: 100%;
+  height: 768px;
+  display: flex;
+}
+
+.pagefour{
+  background-color: $page-four;
+  width: 100%;
+  height: 768px;
+  display: flex;
+}
+
+.pagefive{
+  width: 100%;
+  height: 448px;
+  background-image: url("../images/backgound.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.footer{
+  width: 100%;
+  height: 448px;
+  display: flex;
+  background-color: $primary-1;
+}
+
+
+//mobile
+@media only screen and (max-width: 700px) {
+
+  .pageone{
+    height: fit-content;
+  }
+
+  .pagetwo{
+    height: fit-content;
+  }
+
+  .pagethree{
+    height: 1600px;
+  }
+
+  .pagefour{
+    height: 912px;
+  }
+
+  .pagefive{
+    height: 448px;
+  }
+
+  .footer{
+    height: 1232px;
+  }
+
+}

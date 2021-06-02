@@ -1,0 +1,369 @@
+
+.landingtext{
+  display: flex;
+  flex-direction: column;
+  width: 517px;
+  height: 291px;
+
+  h1,h5{
+    color: $text-white;
+  }
+
+  h1{
+    margin-top: 26px;
+    margin-bottom: 33px;
+    hyphens: auto;
+  }
+
+  .emailform{
+    flex-direction: row;
+    display: flex;
+
+    button{
+      margin-left: 30px;
+    }
+  }
+}
+
+.secondpagetext{
+  display: flex;
+  flex-direction: column;
+  width: 470px;
+  height: 387px;
+
+  h2{
+    margin-top: 23px;
+    margin-bottom: 29px;
+    hyphens: auto;
+  }
+
+  button{
+    margin-top: 32px;
+  }
+}
+
+.textpagethree{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  width: 570px;
+  height: 211px;
+
+}
+
+.offerlist{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+
+  .offer{
+    display: flex;
+    flex-direction: column;
+    width: 306px;
+    height: 303px;
+    align-items: center;
+    text-align: center;
+
+    div{
+      background: #FFFFFF;
+      border: 1px solid #E5E5E5;
+      box-sizing: border-box;
+      width: 170px;
+      height: 170px;
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.100345);
+      border-radius: 3px;
+
+      &:hover{
+        width: 190px;
+        height: 190px;
+      }
+
+      img{
+        max-width:100%;
+        max-height:100%;
+      }
+    }
+
+    h4{
+      margin-top: 30px;
+      margin-bottom: 7px;
+    }
+
+    &--middle{
+      margin-left: 94px;
+      margin-right: 94px;
+    }
+
+  }
+}
+
+.textpagefour{
+  display: flex;
+  flex-direction: column;
+  width: 469px;
+  height: 419px;
+
+  div{
+    display: flex;
+    flex-direction: row;
+  }
+
+  h2{
+    margin-bottom: 37px;
+    margin-top: 23px;
+  }
+
+  div{
+    margin-bottom: 18px;
+  }
+
+  img{
+    object-fit: cover;
+    margin-right: 17px;
+  }
+
+  .iconone{
+    width: 21px;
+    height: 20px;
+  }
+
+  .icontwo{
+    width: 22px;
+    height: 21px;
+  }
+
+  .iconthree{
+    width: 23px;
+    height: 23px;
+  }
+
+  .iconfour{
+    width: 23px;
+    height: 21px;
+  }
+
+  .iconfive{
+    width: 23px;
+    height: 22px;
+  }
+
+  button{
+    background-color: transparent;
+    mix-blend-mode: normal;
+    border: 1px solid rgba($primary-1, 0.5);
+    box-sizing: border-box;
+    border-radius: 3px;
+    color: $primary-1;
+  }
+}
+
+.pagefivemolecul{
+  display: flex;
+  width: 713px;
+  height: 259px;
+  flex-direction: column;
+  align-items: center;
+
+  h2,h5{
+    color: $text-white;
+    text-align: center;
+  }
+
+  h2{
+    margin-top: 23px;
+    margin-bottom: 36px;
+  }
+
+}
+
+.footersocials{
+  width: 470px;
+  height: 217px;
+  display: flex;
+  flex-direction: column;
+
+  .socialstext{
+    color: $text-white;
+
+    &--par{
+      margin-top: 15px;
+      margin-bottom: 21px;
+      width: 470px;
+      height: 106px;
+    }
+
+  }
+
+  .socialicons{
+    display: flex;
+    flex-direction: row;
+
+    .socialiconfb{
+      width: 14px;
+      height: 27px;
+    }
+
+    .socialicontw{
+      width: 27px;
+      height: 23px;
+      margin-left: 19px;
+      margin-right: 15px;
+    }
+
+    .socialiconinst{
+      width: 27px;
+      height: 27px;
+    }
+
+  }
+
+}
+
+.footerlist{
+  display: flex;
+  flex-direction: column;
+
+  .firstlistitem{
+    margin-bottom: 24px;
+    color: $text-white;
+  }
+
+  p{
+    margin-bottom: 8px;
+  }
+
+  .lastlistitem{
+    margin-bottom: 0;
+  }
+}
+
+//mobile
+@media only screen and (max-width: 700px) {
+  .landingtext{
+    width: 100%;
+    height: 744px;
+    justify-content: center;
+    margin-left: 14px;
+
+    h1{
+      margin-top: 23px;
+      font-size: 56px;
+      line-height: 64px;
+    }
+
+    .emailform{
+      flex-direction: column;
+      justify-content: space-evenly;
+
+      button{
+        margin-left: 0px;
+        margin-top: 16px;
+      }
+
+    }
+
+  }
+
+  .secondpagetext{
+    width: 95%;
+    height: 371px;
+
+    h2{
+      font-size: 40px;
+      line-height: 48px;
+    }
+
+    button{
+      margin-top: 16px;
+    }
+
+  }
+
+  .textpagethree{
+    width: 90%;
+    height: 346px;
+    margin-top: 51px;
+
+    h2{
+      font-size: 40px;
+      line-height: 48px;
+    }
+
+  }
+
+  .offerlist{
+    flex-direction: column;
+    align-items: center;
+
+    .offer{
+      margin-top: 30px;
+      width: 75%;
+
+      h2{
+        font-size: 40px;
+        line-height: 48px;
+      }
+
+      &--middle{
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+
+    }
+
+  }
+
+  .textpagefour{
+    align-items: flex-start;
+    width: 95%;
+    height: 483px;
+
+    h2{
+      margin-top: 21px;
+      font-size: 40px;
+      line-height: 48px;
+    }
+
+    div{
+      margin-bottom: 8px;
+    }
+
+  }
+
+  .pagefivemolecul{
+    width: 95%;
+
+    h2{
+      margin-top: 21px;
+      margin-bottom: 22px;
+      font-size: 40px;
+      line-height: 48px;
+    }
+
+  }
+
+  .footersocials{
+    width: 95%;
+    height: 249px;
+
+    .socialstext--par{
+      width: 95%;
+      height: 141px;
+    }
+
+  }
+
+  .footerlist{
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    .firstlistitem{
+      margin-top: 40px;
+    }
+
+  }
+
+}
